@@ -1,0 +1,17 @@
+*.egg-info/
+**/__pycache__/
+dist/
+*.py[cod]
+*.pyc
+*.so
+.venv/
+.pytest_cache/
+.idea/
+recording/
+build/
+demo.cast
+.ruff_cache
+.coverage
+coverage.xml
+.env
+.python-version
