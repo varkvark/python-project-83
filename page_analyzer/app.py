@@ -2,7 +2,8 @@ from flask import Flask, request, render_template, redirect, url_for, flash
 import os
 import validators
 from dotenv import load_dotenv
-from .formatting import parsed_url, format_date
+from .url_normalyzer import parsed_url, format_date
+from .parser import extract_data_from_url
 from .db import (
     open_db_connection,
     close_db_connection,
@@ -11,7 +12,6 @@ from .db import (
     get_all_urls,
     get_url_by_id,
     insert_in_url_check,
-    extract_data_from_url,
     get_url_details
 )
 
