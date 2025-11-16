@@ -1,7 +1,5 @@
 import os
 import psycopg2
-import requests
-from bs4 import BeautifulSoup
 from psycopg2 import extras
 from dotenv import load_dotenv
 from datetime import datetime
@@ -95,6 +93,14 @@ def insert_in_url_check(conn, url_id, data):
     cur.close()
 
 
+
+
+
+
+
+
+
+'''
 def extract_data_from_url(url):
     try:
         response = requests.get(url)
@@ -120,6 +126,14 @@ def extract_data_from_url(url):
         }
     except requests.RequestException:
         return {'error': 'Произошла ошибка при проверке'}
+'''
+
+
+
+
+
+
+
 
 
 def get_url_details(url_id):
