@@ -10,7 +10,8 @@
 # Page Analyzer
 
 Page Analyzer is a Flask application that allows users to analyze web pages for SEO effectiveness.
-Application is available by the link down below:
+
+Application is available by the link:
 [Page Analyzer Application](https://python-project-83-naaz.onrender.com/)
 
 
